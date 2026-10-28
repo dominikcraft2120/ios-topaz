@@ -1,0 +1,2 @@
+gh workflow run xnu.yml -R YOU/ios-topaz --ref topaz
+gh run download RUN_ID -R YOU/ios-topaz -n xnu-kernel -D xnu/out
